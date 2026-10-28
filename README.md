@@ -1,16 +1,38 @@
-# React + Vite
+# Student Budget Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the Project
+Student Budget Planner is a web application that helps students manage their monthly income and expenses, track their spending, and calculate their available balance.
 
-Currently, two official plugins are available:
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- React.js
+- Node.js
+- Express.js
+- MongoDB
+- jQuery
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Add income and expense transactions
+- View transaction history
+- Delete transactions
+- Calculate available balance
+- Track monthly budget
+- Download transaction data as JSON
 
-## React Compiler
+## Installation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+1. Open the `my-react-app` folder.
+2. Run `npm install`.
+3. Run `npm run dev`.
 
-## Expanding the ESLint configuration
+### Backend
+1. Open the `server` folder.
+2. Run `npm install`.
+3. Configure the MongoDB connection in your local `.env` file.
+4. Run `npm run dev`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Note
+MongoDB must be running, and the backend must be configured before the application can store and retrieve transactions.
